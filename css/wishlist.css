@@ -1,0 +1,9 @@
+.wishlist-card-cont-1{
+    height: 90%;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
