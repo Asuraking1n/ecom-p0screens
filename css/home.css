@@ -1,0 +1,57 @@
+.home-card-cont{
+    height: 15rem;
+    width: 100%;
+    padding: 1rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.home-card{
+    height: 95%;
+    width: 20rem;
+    position: relative;
+    box-shadow: 10px 10px 21px -11px rgba(0,0,0,0.75);
+}
+.home-card img{
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+}
+.home-card::before{
+    content: "men";
+    height: 2.5rem;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    z-index: 2;
+    font: 1.2em sans-serif;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+}
+main{
+    height: 70rem;
+    overflow-y: auto;
+}
+.home-vedio{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+.new-arival{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
