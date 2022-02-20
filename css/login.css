@@ -71,3 +71,13 @@ main{
     margin-left: 1rem;
     
 }
+
+
+@media (max-width: 480px)  {
+    .form-cont{
+        width: 20rem;
+        
+    }
+}
+
+

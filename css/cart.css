@@ -186,3 +186,42 @@ section{
     letter-spacing: 1px;
     background-color: rgb(26, 99, 235);
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px)  {
+    section{
+        flex-direction: column;
+    }
+    .product-card-cont{
+        width: 100%;
+    }
+    .price-card-cont{
+        width: 100%;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 810px){
+    section{
+        flex-direction: column;
+    }
+    .product-card-cont{
+        width: 100%;
+    }
+    .price-card-cont{
+        width: 100%;
+    }
+}
+
+
