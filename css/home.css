@@ -55,3 +55,48 @@ main{
     flex-direction: column;
     justify-content: center;
 }
+
+
+
+
+
+
+@media (max-width: 480px)  {
+    .home-card-cont{
+        height: 100rem;
+        flex-wrap: wrap;
+    }
+    .home-card{
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem 0;
+    }
+    .new-arival{
+        flex-wrap: wrap;
+    }
+    .product-card{
+        margin: 1rem 0;
+    }
+}
+
+
+
+@media (min-width: 481px) and (max-width: 810px){
+    .home-card-cont{
+        height: 100rem;
+        flex-wrap: wrap;
+    }
+    .home-card{
+        height: 20rem;
+        width: 20rem;
+        margin: 1rem 0;
+    }
+    .new-arival{
+        flex-wrap: wrap;
+    }
+    .product-card{
+        margin: 1rem 0;
+    }
+}
+
+

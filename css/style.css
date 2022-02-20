@@ -243,6 +243,42 @@
 }
 
 
+@media (max-width: 480px)  {
+    .e-nav-logo{
+        font-size: 1.2rem;
+    }
+    .e-nav-buttons-cons{
+        display: none;
+    }
+    .e-nav-search{
+        display: none;
+    }
+    .e-nav-buttons{
+        width: 100%;
+        margin-right: 2rem;
+        justify-content: flex-end;
+    }
+}
+
+
+
+
+@media (min-width: 481px) and (max-width: 810px){
+    .e-nav-logo{
+        font-size: 1.2rem;
+    }
+    .e-nav-buttons-cons{
+        display: none;
+    }
+    .e-nav-search{
+        display: none;
+    }
+    .e-nav-buttons{
+        width: 100%;
+        margin-right: 2rem;
+        justify-content: flex-end;
+    }
+}
 
 
 
