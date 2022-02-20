@@ -113,10 +113,35 @@ section{
     color:rgb(126, 129, 129) !important;
     border: 2px solid rgb(126, 129, 129) !important;
 }
+.checkout-card{
+    margin-left: 22rem;
+    
+}
+.apply-coupon{
+    height: 4rem;
+    width: 23rem;
+    margin: 2rem 0;
+    display: flex;
+    
+}
+.apply-coupon button{
+    height: 102%;
+    width: 30%;
+    cursor: pointer;
+    color: #fff;
+    font: 1em sans-serif;
+    letter-spacing: 1px;
+    background-color: rgb(14, 130, 207);
+}
 
-
-
-
+.apply-coupon input{
+    outline: none;
+    height: 100%;
+    width: 60%;
+    padding: 0 1rem;
+    font: 1em sans-serif;
+    letter-spacing: 2px;
+}
 
 
 
@@ -207,6 +232,10 @@ section{
     .price-card-cont{
         width: 100%;
     }
+    .checkout-card{
+        margin-left: 0rem;
+        
+    }
 }
 
 
@@ -221,6 +250,10 @@ section{
     }
     .price-card-cont{
         width: 100%;
+    }
+    .checkout-card{
+        margin-left: 0rem;
+        
     }
 }
 
