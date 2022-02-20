@@ -71,7 +71,16 @@ main{
     margin-left: 1rem;
     
 }
-
+.forget-pass{
+    width: 20rem;
+    height: 20rem;
+}
+.mail-pass{
+    margin-top: 3rem;
+}
+.forget-btn{
+    margin-top: 3rem;
+}
 
 @media (max-width: 480px)  {
     .form-cont{
