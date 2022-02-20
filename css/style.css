@@ -111,8 +111,12 @@
     width: 20%;
     background-color: rgb(255, 255, 255);
 }
+#filter-view{
+    display: block;
+}
 
 .filter-sidebar-heading{
+    cursor: pointer;
     display: flex;
     align-items: center;
     font: 1.2em sans-serif;
@@ -241,7 +245,9 @@
     margin-top: 1rem;
     background-color: rgb(50, 122, 205);
 }
-
+#filter-icon{
+    display: none ;
+}
 
 @media (max-width: 480px)  {
     .e-nav-logo{
@@ -257,6 +263,27 @@
         width: 100%;
         margin-right: 2rem;
         justify-content: flex-end;
+    }
+    .main-body-sec{
+        flex-direction: column;
+    }
+    .filter-sidebar{
+        width: 100%;
+    }
+    #filter-view{
+        display: none;
+    }
+    .card-body-sec-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-body-sec-heading span{
+        display: none;
+    }
+    #filter-icon{
+        display: block;
+        margin-left: 1rem;
+        cursor: pointer;
     }
 }
 
@@ -277,6 +304,27 @@
         width: 100%;
         margin-right: 2rem;
         justify-content: flex-end;
+    }
+    .main-body-sec{
+        flex-direction: column;
+    }
+    .filter-sidebar{
+        width: 100%;
+    }
+    #filter-view{
+        display: none;
+    }
+    .card-body-sec-heading{
+        display: flex;
+        justify-content: space-between;
+    }
+    .card-body-sec-heading span{
+        display: none;
+    }
+    #filter-icon{
+        display: block;
+        margin-left: 1rem;
+        cursor: pointer;
     }
 }
 

@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="main-body-sec">
-            <div class="filter-sidebar">
+            <div class="filter-sidebar"  id="filter-view">
                 <div class="filter-sidebar-heading">
                     <span><b>Filters</b></span>
-                    <span>clear</span>
+                    <span onclick="closeFilter()">clear</span>
                 </div>
                 <div class="filter-price">
                     <span><b>Price</b></span>
@@ -81,6 +81,7 @@
             <div class="card-body-sec">
                 <div class="card-body-sec-heading">Showing All Products
                     <span>(showing 20 products)</span>
+                    <i class="fa-solid fa-filter " id="filter-icon" onclick="openFilter()"></i>
                 </div>
                 <div class="card-body-sec-cont">
                     <div class="product-cardOne">
@@ -176,5 +177,6 @@
             </div>
         </div>
     </div>
+    <script src="../javascript/script.js"></script>
 </body>
 </html>
